@@ -21,5 +21,10 @@ namespace Example_inheritance.Entities
         {
             Balance += Balance * InterestRate;
         }
+
+        public override void Withraw(double amount)
+        {
+            Balance -= amount;
+        }
     }
 }

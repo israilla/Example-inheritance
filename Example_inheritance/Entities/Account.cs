@@ -16,9 +16,9 @@
             Balance = balance;
         }
 
-        public void Withraw(double amount)
+        public virtual void Withraw(double amount)
         {
-            Balance -= amount;
+            Balance -= amount + 5.0;
         }
 
         public void Deposit (double amount)
