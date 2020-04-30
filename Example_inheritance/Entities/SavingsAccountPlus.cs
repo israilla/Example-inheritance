@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Example_inheritance.Entities
 {
-    class SavingsAccountPlus
+    class SavingsAccountPlus: SavingsAccount
     {
     }
 }
